@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <title>Hotel Avendra</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="/Css/style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a class="logo" href="index.html">Hotel Avendra</a>
+          <input type="checkbox" id="check" />
+          <label for="check">
+            <i class="fas fa-bars" id="open"></i>
+            <i class="fas fa-times" id="close"></i>
+          </label>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="/Pages/rooms.html" class="nav-link">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a href="/Pages/restuarant.html" class="nav-link">Restaurant</a>
+            </li>
+            <li class="nav-item">
+              <a href="/Pages/spa.html" class="nav-link">Spa</a>
+            </li>
+            <li class="nav-item">
+              <a href="/Pages/about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/Pages/contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="/Pages/rooms.html" class="nav-link book-btn">Book</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="hero" class="hero">
+        <div id="carouselExample" class="carousel slide" data-bs-slide="true">
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-image bg-img-1 active">
+               <img src="/assets/Images/view1.jpeg" class="d-block w-100" alt="..."> 
+            </div>
+            <div class="carousel-item carousel-image bg-img-2">
+              <img src="/assets/Images/view2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carousel-image bg-img-3">
+              <img src="/assets/Images/view3.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carousel-image bg-img-4">
+              <img src="/assets/Images/view4.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carousel-image bg-img-5">
+              <img src="/assets/Images/view5.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carousel-image bg-img-6">
+              <img src="/assets/Images/view6.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carousel-image bg-img-7">
+              <img src="/assets/Images/view7.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carousel-image bg-img-8">
+              <img src="/assets/Images/view8.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carousel-image bg-img-9">
+              <img src="/assets/Images/view9.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carousel-image bg-img-10">
+              <img src="/assets/Images/Logo.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="container">
+          <div class="hero__text-box">
+            <h1 class="hero__text">
+              <span class="hero__text-top">Luxury</span>
+              <span class="hero__text-bottom">Comfort</span>
+            </h1>
+            <a href="/Pages/rooms.html">
+              <button class="btn btn-brown">Book a Room</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- INFO SECTION -->
+      <section class="info">
+        <div class="container">
+          <div class="row">
+            <div class="col-2 padding-right">
+              <p class="info-text text-brown">
+                Famed for being the finest city hotel in Galle, Avendra
+                Hotel is conveniently located in the heart of the Galle city,
+                facing the scenic Indian Ocean and the picturesque Galle Fort.
+                Whether you're looking to unwind in a luxurious dwelling,
+                indulge in delectable cuisines, or celebrate special moments in
+                life, Avendra Hotel offers an oasis of relaxation and
+                comfort for all. Discover a world of unparalleled elegance and
+                sophistication at Avendra Hotel,where Luxury meets
+                tranquility in the heart of Galle.
+              </p>
+              <p class="info-text text-brown">
+                Whether you are travelling for business or leisure, we take
+                pride in offering a warm welcome to all our guests with a
+                genuine smile and a commitment to make your stay a memorable
+                one. Our exceptional services and passion for excellence set
+                Avendra Hotel apart from other hotels in Galle. Come and
+                make yourself feel at home — and let us take care of the rest.
+              </p>
+            </div>
+            <div class="col-2 image-group">
+              <img src="/assets/Images/bloglist1.jpeg" alt="image" />
+              <img src="/assets/Images/bloglist2.jpeg" alt="image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ROOMS SECTION -->
+      <section class="rooms">
+        <div class="container">
+          <div class="row">
+            <div class="col-2 padding-right">
+              <img src="/assets/Images/room7.jpeg" alt="image" />
+            </div>
+            <div class="col-2">
+              <div class="text-box">
+                <h2 class="headline">Rooms</h2>
+                <p>
+                  Offering striking views of the Indian Ocean, Galle Fort and
+                  the city beyond, our 500 guest rooms and suites, and 41
+                  serviced apartments are tastefully furnished to complement the
+                  urban-oceanside location and are among the largest in Galle.
+                </p>
+                <a href="/Pages/rooms.html"
+                  ><button class="btn btn-brown">Explore Now</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESTAURANT SECTION -->
+      <section class="restaurant">
+        <div class="container">
+          <div class="row column-reverse">
+            <div class="col-2 padding-right">
+              <div class="text-box">
+                <h2>Restaurant</h2>
+                <p>
+                  Add colour to your adventures in the city with a delightful
+                  dining experience in Galle. The restaurants at Hotel Avendra
+                  provide the ideal choice for those looking to indulge in
+                  a culinary journey of discovery. Savour wonderfully spicy Sri
+                  Lankan dishes and Asian delicacies and find your favourites
+                  from a choice of international specialties as well. Enjoy a
+                  family-friendly atmosphere too while you dine and make
+                  memories to cherish our hotel.
+                </p>
+                <a href="/Pages/restuarant.html">
+                  <button class="btn btn-white">Dine With Us</button></a
+                >
+              </div>
+            </div>
+            <div class="col-2">
+              <img src="/assets/Images/Restuarant.jpeg" alt="image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPA SECTION -->
+      <section class="spa">
+        <div class="container">
+          <div class="row">
+            <div class="col-2 padding-right">
+              <img src="/assets/Images/spa1.jpeg" alt="image" />
+            </div>
+            <div class="col-2">
+              <div class="text-box">
+                <h2>Spa &amp; Wellness</h2>
+                <p>
+                  "You will achieve calmness and profundity, ripeness and
+                  wisdom. And the clear enhancement of memory. And most of all,
+                  you will have time..." - Lost Horizon by James Hilton
+                  <br /><br />
+                  Chi, The Spa at Avendra draws inspiration from the
+                  legendary Avendra a place of personal peace,
+                  enchantment and well-being. Chi massages and treatments are
+                  based on authentic natural healing methods found in
+                  traditional well-being practices shared by many Asian
+                  cultures. Chi, The Spa at Avendra Hotel Galle features a
+                  selection of treatments that showcase Ceylonese natural
+                  plants, herbs and botanical products with their potent
+                  therapeutic properties. Surrender to the intuitive touch of
+                  our skilled therapists within the restorative luxury of Chi,
+                  The Spa to revitalize the body and soothe the senses. Seven
+                  private rooms are available both for individuals and for
+                  couples to experience a sublime selection of traditional Sri
+                  Lankan and other Asian treatments and therapies.
+                </p>
+                <a href="/Pages/spa.html"
+                  ><button class="btn btn-brown">Learn More</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIAL SECTION -->
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="heading-text">Customers Reviews</h2>
+          <div class="slider">
+            <div class="slider-box">
+              <i class="fas fa-quote-left text-brown"></i>
+              <p>
+                From the moment we arrived until departure, the staff exceeded
+                expectations. Exceptional customer service, with a commitment to
+                making our stay comfortable.
+              </p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <img src="/assets/Images/user2.jpeg" alt="user" />
+              <h3>Charly Caserla</h3>
+            </div>
+            <div class="slider-box">
+              <i class="fas fa-quote-left text-brown"></i>
+              <p>
+                The hotel restaurant offered delicious meals with a diverse
+                menu.Prompt room service and food that surpassed our
+                expectations.
+              </p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <img src="/assets/Images/user3.jpeg" alt="user" />
+              <h3>Sara Jasmin</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+      <div class="container">
+        <div class="back-to-top">
+          <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+        </div>
+        <div class="footer__content row">
+          <div class="col-3">
+            <h4>About</h4>
+            <p>
+              Nestled amidst the oceanfront entertainment, shopping, and
+              commercial precincts of Galle, Avendra Hotel offers elevated
+              luxury right in the heart of the city. Enjoy unparalleled culinary
+              experiences, convenient business facilities, and family-friendly
+              staycations, all within a tranquil oasis. Immerse yourself in a
+              serene escape that invites quiet discovery while still being close
+              to the vibrant energy of Galle. Experience the perfect blend of
+              luxury and relaxation at Avendra Hotel!
+            </p>
+          </div>
+          <div class="col-3">
+            <h4>Payment Methods</h4>
+            <p>Pay any way you choose, we support all payment options</p>
+            <ul class="payment-methods">
+              <li>
+                <a href="#">
+                  <i class="fab fa-paypal"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-cc-visa"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-cc-mastercard"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-apple-pay"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h4>Get Social</h4>
+            <p>
+              Follow us on social media and keep in touch with Avendra Hotel.
+            </p>
+            <ul class="social-icons">
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-tripadvisor"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="copyright">Copyright © All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
