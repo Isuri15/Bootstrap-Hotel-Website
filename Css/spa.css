@@ -1,0 +1,42 @@
+/*                    SPA PAGE                   */
+
+.spa-header {
+    color: var(--main-color);
+    margin-bottom: 8rem;
+  }
+  
+  .spa-header .headline {
+    color: var(--main-color);
+  }
+  
+  .section-spa .col-3 img {
+    width: 350px;
+    height: 250px;
+    margin:10px;
+    transform: scale(1.15);
+  }
+  
+  .section-spa .col-3 {
+    flex: 1;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  
+  .section-spa .fa-spa,
+  .our-menu .fa-utensils {
+    font-size: 4rem;
+  }
+  
+  .button-container {
+    text-align: center;
+    padding: 10rem 0;
+  }
+
+  .copyright {
+    background: rgb(165, 96, 5);
+    color: white;
+    font-size: 1.5rem;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
